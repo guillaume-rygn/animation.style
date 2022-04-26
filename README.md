@@ -22,7 +22,7 @@ Install with CDN :
 ```
 <head>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/guillaume-rygn/animation-style@1239adf/animation.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animation.style@latest/animation.min.css"/>
 
 </head>
 ```
