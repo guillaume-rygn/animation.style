@@ -66,8 +66,10 @@ Animation.style is licensed under the [Hippocratic License](http://firstdonoharm
 
 ## Founder
 
-| ![Guillaume Reygner](https://avatars.githubusercontent.com/u/74305277?v=4) | --- |
-| [Guillaume Reygner](https://github.com/guillaume-rygn) | Animation.style Creator | 
+| ![Guillaume Reygner](https://avatars.githubusercontent.com/u/74305277?v=4) |
+| --- |
+| [Guillaume Reygner](https://github.com/guillaume-rygn) |
+| Animation.style Creator | 
 
 
 ## Contributing
