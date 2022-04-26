@@ -15,3 +15,16 @@
     opacity: 0;
   }
 }
+
+.fadeIn{
+  animation-name: fadeIut;
+}
+
+@keyframes fadeIut{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 100;
+  }
+}
