@@ -1,0 +1,17 @@
+:root{
+  --duration: 1s;
+}
+
+.animation{
+  animation-duration: var(--duration);  
+}
+
+.fadeOut{
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut{
+  to{
+    opacity: 0;
+  }
+}

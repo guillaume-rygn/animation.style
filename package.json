@@ -1,0 +1,22 @@
+{
+  "name": "animation.style",
+  "version": "1.0.0",
+  "description": "Free Open Source library of CSS animations! It has never been so easy to animate elements",
+  "main": "animation.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaume-rygn/animation.css.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Guillaume Reygner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaume-rygn/animation.css/issues"
+  },
+  "homepage": "https://github.com/guillaume-rygn/animation.css#readme"
+}
