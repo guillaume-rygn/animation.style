@@ -23,12 +23,10 @@ and in your CSS file add:
 @import 'node_modules/animation.style/animation.css'
 ```
 
-Or install with CDN in your HTML file: 
+Or install with CDN in HEAD of your HTML file: 
 
 ```
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animation.style@latest/animation.min.css"/>
-</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animation.style@latest/animation.min.css"/>
 ```
 
 ## How to use it 
