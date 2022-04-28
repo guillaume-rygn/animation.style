@@ -121,16 +121,16 @@ Animations, like many facets of visual and interaction design, can be highly sub
 
 ### Code Styling
 
-    Match the naming convention (camelCase, categorized [fades, bounces, etc])
-    Indent with two spaces
-    End each file with a blank line
-    Make sure you have an editorconfig plugin/extension enabled in your editor and all the dependencies installed so editorconfig and prettier can automatically format your code when committing.
+- Match the naming convention (camelCase, categorized [fades, bounces, etc])
+- Indent with two spaces
+- End each file with a blank line
+
 
 ### How To Contribute
 
-    Fork the project
-    Create a new topic branch on your local forked copy
-    Push your topic branch up to your fork
-    Create a pen demonstrating what your change will do with [Codepen](https://codepen.io/) or [Codesandbox](https://codesandbox.io/).
-    Open a Pull Request with a clear title and description against the master branch and link your Codepen or Codesandbox project.
+1. Fork the project.
+2. Create a new topic branch on your local forked copy.
+3. Push your topic branch up to your fork.
+4. Create a pen demonstrating what your change will do with [Codepen](https://codepen.io/) or [Codesandbox](https://codesandbox.io/).
+5. Open a Pull Request with a clear title and description against the master branch and link your Codepen or Codesandbox project.
 
