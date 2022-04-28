@@ -7,6 +7,10 @@
 install with npm :
 ```npm install animation.style --save```
 
+or install with yarn : 
+
+```yarn add animate.css```
+
 In your html file : 
 
 ```
