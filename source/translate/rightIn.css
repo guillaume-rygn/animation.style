@@ -1,0 +1,12 @@
+.rightIn{
+  animation-name: rightIn;
+}
+
+@keyframes rightIn{
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}

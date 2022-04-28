@@ -1,0 +1,12 @@
+.rightOut{
+  animation-name: rightOut;
+}
+
+@keyframes rightOut{
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(100%);
+  }
+}

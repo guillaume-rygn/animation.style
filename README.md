@@ -57,16 +57,16 @@ Add multiple animation to the same element example:
 
 ## Animation name
 
-- **fadeIn**
-- **fadeOut**
-- **leftIn**
-- **leftOut**
-- **rightIn**
-- **rightOut**
-- **topIn**
-- **topOut**
-- **bottomIn**
-- **bottomOut**
+- **[fadeIn](source/fade/fadeIn.css)**
+- **[fadeOut](source/fade/fadeOut.css)**
+- **[leftIn](source/translate/leftIn.css)**
+- **[leftOut](source/translate/leftOut.css)**
+- **[rightIn](source/translate/rightIn.css)**
+- **[rightOut](source/translate/rightOut.css)**
+- **[topIn](source/translate/topIn.css)**
+- **[topOut](source/translate/topOut.css)**
+- **[bottomIn](source/translate/bottomIn.css)**
+- **[bottomOut](source/translate/bottomOut.css)**
 
 ## Founder
 
