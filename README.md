@@ -83,6 +83,6 @@ This project and everyone participating in it is governed by the Animation.style
 
 ## Contributing
 
-Everyone can be contributing. Please make a pull request and show the contributing in a [pen](https://codepen.io).
+Everyone can be contributing. Please refer to the [contribution](CONTRIBUTING.md) file procedure to contribute.
 
 
