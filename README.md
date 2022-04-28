@@ -43,12 +43,17 @@ You can set up the duration with class **duration-[i]** with i between 1 to 10.
 Same for the delay, you can add a delay for animation with class **delay-[i]** with i between 1 to 10.
 You can add multiple animation juste need to call it by their name.
 
-basic example : 
+## Example : 
 
+Basic example: 
 ```
 <p class="animation fadeIn duration-3 delay-5">I'm a animated element</p>
 ```
+Add multiple animation to the same element example: 
 
+```
+<p class="animation fadeIn leftIn">I'm a animated element</p>
+```
 
 ## Animation name
 
@@ -71,11 +76,11 @@ basic example :
 
 ## License
 
-Animation.style is licensed under the [Hippocratic License](LICENSE.md)).
+Animation.style is licensed under the [Hippocratic License](LICENSE.md).
 
 ## Code of conduct
 
-This project and everyone participating in it is governed by the [Animation.style Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. 
+This project and everyone participating in it is governed by the Animation.style [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. 
 
 
 ## Contributing
