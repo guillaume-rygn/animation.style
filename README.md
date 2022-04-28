@@ -4,30 +4,28 @@
 
 ## It has never been so easy to animate elements !
 
-install with npm :
-```npm install animation.style --save```
+install with npm:
+```shell
+npm install animation.style --save
+```
 
-or install with yarn : 
+or install with yarn: 
 
-```yarn add animate.css```
+```shell
+yarn add animate.css
+```
 
-In your html file : 
+In your CSS file: 
+
+```
+@import 'node_modules/animation.style/animation.css'
+```
+
+Install with CDN in your HTML file: 
 
 ```
 <head>
-
-  <link rel="stylesheet" href="./node_modules/animation.style/animation.css"/>
-
-</head>
-```
-
-Install with CDN : 
-
-```
-<head>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animation.style@latest/animation.min.css"/>
-
 </head>
 ```
 
