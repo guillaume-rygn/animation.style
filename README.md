@@ -2,9 +2,11 @@
 
 [![GitHub Version](https://img.shields.io/github/v/release/guillaume-rygn/animation-style.svg?style=for-the-badge)](https://github.com/guillaume-rygn/animation-style/releases) [![License](https://img.shields.io/badge/license-hippocratic%20license-orange.svg?longCache=true&style=for-the-badge)](https://github.com/animate-css/animate.css/blob/main/LICENSE)
 
-## It has never been so easy to animate elements !
+## ***It has never been so easy to animate elements !***
 
-install with npm:
+## Installation
+
+Install with npm:
 ```shell
 npm install animation.style --save
 ```
@@ -15,13 +17,13 @@ or install with yarn:
 yarn add animate.css
 ```
 
-In your CSS file: 
+and in your CSS file add: 
 
 ```
 @import 'node_modules/animation.style/animation.css'
 ```
 
-Install with CDN in your HTML file: 
+Or install with CDN in your HTML file: 
 
 ```
 <head>
@@ -61,16 +63,19 @@ basic example :
 - **bottomIn**
 - **bottomOut**
 
-
-# License
-
-Animation.style is licensed under the [Hippocratic License](http://firstdonoharm.dev).
-
 ## Founder
 
 | [Guillaume Reygner](https://github.com/guillaume-rygn) |
 | ----------- |
 | Animation.style Creator | 
+
+## License
+
+Animation.style is licensed under the [Hippocratic License](LICENSE.md)).
+
+## Code of conduct
+
+This project and everyone participating in it is governed by the [Animation.style Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. 
 
 
 ## Contributing
