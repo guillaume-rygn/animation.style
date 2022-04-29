@@ -23,7 +23,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
       - [Before Submitting an Enhancement](#before-submitting-an-enhancement)
       - [How Do I Submit a Good Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
   - [Your First Code Contribution](#your-first-code-contribution)
-    - [The animations in Animate.css should follow a few key principles:](#the-animations-in-animatecss-should-follow-a-few-key-principles)
+    - [The animations in Animation.style should follow a few key principles:](#the-animations-in-animationstyle-should-follow-a-few-key-principles)
     - [Code Styling](#code-styling)
     - [How To Contribute](#how-to-contribute)
 
@@ -110,7 +110,7 @@ Design Guidelines
 
 Animations, like many facets of visual and interaction design, can be highly subjective. Maintaining a consistent library of animations in an active community can be difficult; these design guidelines are designed to help encourage thoughtful criticism of new animations that are proposed for Animation.style.
 
-### The animations in Animate.css should follow a few key principles:
+### The animations in Animation.style should follow a few key principles:
 
 - Animations should be subtle. Avoid creating animations that involve large translations, or span a natural duration of longer than 1 second.
 - Animations should be tolerable. Related to subtlety, animations should be tolerable—seeing them repeatedly should not become too annoying or overbearing.
