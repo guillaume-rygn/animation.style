@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+animation.style@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/animation.style/-/animation.style-1.3.6.tgz#341180b3d92a24af7c989c93ec9f7140a9aff853"
+  integrity sha512-sH8XW50Ng7hQHUXwmusrwwpXIY+DieNG2FkMiCZww9pxiUCTxgYAx8cJkMOzSyipReSTngdR2vLGa+kHzQwwSg==
