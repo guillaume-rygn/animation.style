@@ -14,7 +14,7 @@ npm install animation.style --save
 or install with yarn: 
 
 ```shell
-yarn add animate.css
+yarn add animation.style
 ```
 
 and in your CSS file add: 
