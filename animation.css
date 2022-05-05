@@ -91,6 +91,25 @@
   animation-delay: calc(var(--animation-delay) * 10);  
 }
 
+.animation.ease{
+  animation-timing-function: ease;
+}
+
+.animation.ease-in{
+  animation-timing-function: ease-in;
+}
+
+.animation.ease-out{
+  animation-timing-function: ease-out;
+}
+
+.animation.ease-in-out{
+  animation-timing-function: ease-in-out;
+}
+
+.animation.linear{
+  animation-timing-function: linear;
+}
 
 /*---------------------------------------*/
 
