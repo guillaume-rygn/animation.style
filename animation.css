@@ -313,3 +313,26 @@
       transform: rotate(360deg);
   }
 }
+
+/*---------------------------------------*/
+
+.zoomInOut {
+  animation-name: zoomInOut ;
+}
+
+@keyframes zoomInOut {
+
+    0%, 100%
+    {
+        transform: scale(1);
+
+
+    }
+
+    50%
+    {
+        transform: scale(1.1);
+    }
+}
+
+/*---------------------------------------*/
