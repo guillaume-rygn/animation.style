@@ -17,7 +17,8 @@ or install with yarn:
 yarn add animation.style
 ```
 
-and in your CSS file add: 
+Initialize: 
+In your CSS file add: 
 
 ```
 @import 'node_modules/animation.style/animation.css'
@@ -27,6 +28,11 @@ Or install with CDN in HEAD of your HTML file:
 
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animation.style@latest/animation.min.css"/>
+```
+Add JS script: 
+
+```
+<script src='node_modules/animation.style/animation.js'></script>
 ```
 
 ## How to use it 
@@ -41,6 +47,15 @@ You can set up the duration with class **duration-[i]** with i between 1 to 10.
 Same for the delay, you can add a delay for animation with class **delay-[i]** with i between 1 to 10.
 You can add multiple animation juste need to call it by their name.
 
+### Intersection Observer 
+
+With the latest version of animation.style you can directly integrate the observer intersection to your animations ! 
+For add an animation you just need to call it in data attribute (don't forget the class **animation**).  
+
+```
+<p class="animation" data="fadeOut">I'm a animated element</p>
+```
+
 ## Example : 
 
 Basic example: 
@@ -51,6 +66,12 @@ Add multiple animation to the same element example:
 
 ```
 <p class="animation fadeIn leftIn">I'm a animated element</p>
+```
+
+Same example with intersection observer:
+
+```
+<p class="animation" data="fadeIn leftIn">I'm a animated element</p>
 ```
 
 ## Animation name
