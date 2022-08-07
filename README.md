@@ -50,10 +50,10 @@ You can add multiple animation juste need to call it by their name.
 ### Intersection Observer 
 
 With the latest version of animation.style you can directly integrate the observer intersection to your animations ! 
-For add an animation you just need to call it in data attribute (don't forget the class **animation**).  
+For add an animation you just need to call it in data attribute (don't forget the class **animation**) and add the class **intersection** to the element.  
 
 ```
-<p class="animation" data="fadeOut">I'm a animated element</p>
+<p class="animation intersection" data="fadeOut">I'm a animated element</p>
 ```
 
 ## Example : 
@@ -71,7 +71,7 @@ Add multiple animation to the same element example:
 Same example with intersection observer:
 
 ```
-<p class="animation" data="fadeIn leftIn">I'm a animated element</p>
+<p class="animation intersection" data="fadeIn leftIn">I'm a animated element</p>
 ```
 
 ## Animation name
