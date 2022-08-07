@@ -31,8 +31,14 @@ Or install with CDN in HEAD of your HTML file:
 ```
 Add JS script: 
 
+with yarn or npm : 
 ```
 <script src='node_modules/animation.style/animation.js'></script>
+```
+
+with CDN :
+```
+<script src='https://cdn.jsdelivr.net/npm/animation.style@latest/animation.js'></script>
 ```
 
 ## How to use it 
