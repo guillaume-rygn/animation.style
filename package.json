@@ -1,6 +1,6 @@
 {
   "name": "animation.style",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Free Open Source library of CSS animations! It has never been so easy to animate elements",
   "main": "animation.css",
   "scripts": {
