@@ -51,15 +51,14 @@ After add Animation.style in head of your html files. You can add the class **an
 
 You can set up the duration with class **duration-[i]** with i between 1 to 10.
 Same for the delay, you can add a delay for animation with class **delay-[i]** with i between 1 to 10.
-You can add multiple animation juste need to call it by their name.
 
 ### Intersection Observer 
 
 With the latest version of animation.style you can directly integrate the observer intersection to your animations ! 
-For add an animation you just need to call it in data attribute (don't forget the class **animation**) and add the class **intersection** to the element.  
+For add an animation you just need to call it in animation attribute (don't forget the class **animation**) and add the class **intersection** to the element.  
 
 ```
-<p class="animation intersection" data="fadeOut">I'm a animated element</p>
+<p class="animation intersection" animation="fadeOut">I'm a animated element</p>
 ```
 
 ## Example : 
@@ -67,17 +66,11 @@ For add an animation you just need to call it in data attribute (don't forget th
 Basic example: 
 ```
 <p class="animation fadeIn duration-3 delay-5">I'm a animated element</p>
-```
-Add multiple animation to the same element example: 
-
-```
-<p class="animation fadeIn leftIn">I'm a animated element</p>
-```
 
 Same example with intersection observer:
 
 ```
-<p class="animation intersection" data="fadeIn leftIn">I'm a animated element</p>
+<p class="animation intersection" animation="fadeIn leftIn">I'm a animated element</p>
 ```
 
 ## Animation name

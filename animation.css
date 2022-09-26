@@ -336,3 +336,63 @@
 }
 
 /*---------------------------------------*/
+
+.float {
+  animation-name: float ;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(-5px);
+  }
+  50% {
+    transform: translatey(5px);
+  }
+  100% {
+    transform: translatey(-5px);
+  }
+}
+
+/*---------------------------------------*/
+
+.shake {
+  animation-name: shake ;
+}
+
+@keyframes shake {
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*---------------------------------------*/
+
+/*SPECIAL ANIMATION*/
+
+.baseanimation {
+  overflow: hidden;
+  line-height: 1;
+}
+
+.animation .revealBottom{
+  display: block;
+  animation-name: reveal;
+  animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+/*---------------------------------------*/

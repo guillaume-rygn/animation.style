@@ -1,18 +1,18 @@
-const elements = document.querySelectorAll('.animation');
+const elements = document.querySelectorAll('.intersection');
 
 function handleIntersection(entries) {
 
   entries.map((entry) => {
    
     if (entry.isIntersecting) {
-      entry.target.attributes.data.value.split(" ").map(attribute => {
-        if(attribute !== "animation"){
-          entry.target.classList.remove("intersection")
-          entry.target.classList.add(attribute)
+      if(entry.target.attributes.animation){
+        entry.target.attributes.animation.value.split(" ").map(animation => {
+            entry.target.classList.remove("intersection")
+            entry.target.classList.add(animation)
+        })
+          observer.unobserve(entry.target);
         }
-      })
-      observer.unobserve(entry.target);
-    }
+      }   
   });
 }
 
