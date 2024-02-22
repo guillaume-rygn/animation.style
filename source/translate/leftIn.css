@@ -1,12 +1,19 @@
-.leftIn{
+/* This is a CSS class that triggers a left-to-right animation */
+.leftIn {
+  /* This sets the name of the animation to "leftIn" */
   animation-name: leftIn;
 }
 
-@keyframes leftIn{
-  from{
+/* This is a CSS @keyframes rule that defines the animation steps for the "leftIn" animation */
+@keyframes leftIn {
+  /* This is the starting point of the animation */
+  from {
+    /* This translates the element 100% to the left along the X-axis */
     transform: translateX(-100%);
   }
-  to{
+  /* This is the ending point of the animation */
+  to {
+    /* This translates the element 0% along the X-axis, effectively moving it back to its original position */
     transform: translateX(0%);
   }
 }
