@@ -1,12 +1,19 @@
-.bottomIn{
+/* The bottomIn class is used to animate an element moving from the bottom */
+.bottomIn {
+  /* Assigns the bottomIn animation to the element */
   animation-name: bottomIn;
 }
 
-@keyframes bottomIn{
-  from{
+/* Defines the keyframes for the bottomIn animation */
+@keyframes bottomIn {
+  /* The starting point of the animation */
+  from {
+    /* Translates the element vertically by 100% (moves it up and out of view) */
     transform: translateY(100%);
   }
-  to{
+  /* The ending point of the animation */
+  to {
+    /* Translates the element vertically by 0% (moves it back into view) */
     transform: translateY(0%);
   }
 }
