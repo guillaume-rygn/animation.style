@@ -1,12 +1,19 @@
-.bottomOut{
+/* The bottomOut class is used to animate an element moving up and out of the viewport. */
+.bottomOut {
+  /* The animation-name property specifies the name of the @keyframes rule that defines the animation. */
   animation-name: bottomOut;
 }
 
-@keyframes bottomOut{
-  from{
+/* The @keyframes rule defines the animation by specifying the styles at various points during the animation. */
+@keyframes bottomOut {
+  /* The from keyword specifies the starting style for the animation. */
+  from {
+    /* The transform property is used to move the element up by its original height (0%). */
     transform: translateY(0%);
   }
-  to{
+  /* The to keyword specifies the ending style for the animation. */
+  to {
+    /* The transform property is used to move the element up by its height plus any margin or padding (100%). */
     transform: translateY(100%);
   }
 }
