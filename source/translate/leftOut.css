@@ -1,12 +1,26 @@
-.leftOut{
+/* The 'leftOut' class defines an animation for an element to move from its
+   current position to the left by 100% (off-screen). */
+.leftOut {
+  /* The animation is defined using the 'animation-name' property, which
+     references the @keyframes rule defined below. */
   animation-name: leftOut;
 }
 
-@keyframes leftOut{
-  from{
+/* The @keyframes rule defines the animation sequence for the 'leftOut'
+   animation. */
+@keyframes leftOut {
+  /* The 'from' keyword specifies the starting state of the animation. */
+  from {
+    /* The 'transform' property is used to translate the element along the
+       X-axis by 0%, which means it stays in its original position. */
     transform: translateX(0%);
   }
-  to{
+  
+  /* The 'to' keyword specifies the ending state of the animation. */
+  to {
+    /* The 'transform' property is used to translate the element along the
+       X-axis by -100%, which means it moves to a position 100% to the left
+       (off-screen). */
     transform: translateX(-100%);
   }
 }
