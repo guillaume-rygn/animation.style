@@ -1,9 +1,14 @@
-.fadeOut{
+/* The .fadeOut class is used to trigger a fade out animation */
+.fadeOut {
+  /* The animation is named fadeOut */
   animation-name: fadeOut;
 }
 
-@keyframes fadeOut{
-  to{
+/* @keyframes rule is used to define the animation sequence */
+@keyframes fadeOut {
+  /* The "to" keyword is used to specify the ending style of the animation */
+  to {
+    /* The opacity property is set to 0, making the element fully transparent */
     opacity: 0;
   }
 }
