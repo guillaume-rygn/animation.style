@@ -1,12 +1,19 @@
-.rightIn{
+/* The rightIn class is used to trigger an animation that moves an element in from the right */
+.rightIn {
+  /* Assigns the rightIn animation to this class */
   animation-name: rightIn;
 }
 
-@keyframes rightIn{
-  from{
+/* Defines the keyframes for the rightIn animation */
+@keyframes rightIn {
+  /* The starting point of the animation */
+  from {
+    /* Translates the element 100% to the right of its starting position */
     transform: translateX(100%);
   }
-  to{
+  /* The ending point of the animation */
+  to {
+    /* Translates the element back to its original position */
     transform: translateX(0%);
   }
 }
