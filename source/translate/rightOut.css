@@ -1,12 +1,20 @@
-.rightOut{
+/* The rightOut class is used to trigger a right-to-left animation */
+.rightOut {
+  /* The animation is defined using the animation-name property */
   animation-name: rightOut;
 }
 
-@keyframes rightOut{
-  from{
+/* The @keyframes rule is used to define the animation itself */
+@keyframes rightOut {
+  /* The from state represents the start of the animation */
+  from {
+    /* The translateX function is used to move the element from its initial position to the left */
     transform: translateX(0%);
   }
-  to{
+  
+  /* The to state represents the end of the animation */
+  to {
+    /* The translateX function is used to move the element 100% to the right of its initial position */
     transform: translateX(100%);
   }
 }
