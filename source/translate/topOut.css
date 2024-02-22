@@ -1,12 +1,20 @@
-.topOut{
+/* The topOut class is defined here, which will be used to trigger the animation */
+.topOut {
+  /* The animation-name property specifies the name of the @keyframes animation */
   animation-name: topOut;
 }
 
-@keyframes topOut{
-  from{
+/* The @keyframes rule is used to define the animation itself */
+@keyframes topOut {
+  /* The from state represents the beginning of the animation */
+  from {
+    /* The transform property is used to move the element up by its full height */
     transform: translateY(0%);
   }
-  to{
+  
+  /* The to state represents the end of the animation */
+  to {
+    /* The transform property is used to move the element up by its full height, effectively hiding it */
     transform: translateY(-100%);
   }
 }
