@@ -1,7 +1,7 @@
 /* The .fadeOut class is used to trigger a fade out animation */
 .fadeOut {
   /* The animation is named fadeOut */
-  animation-name: fadeOut;
+  animation-name: fadeOut; /* This property specifies the name of the @keyframes rule that defines the animation sequence */
 }
 
 /* @keyframes rule is used to define the animation sequence */
@@ -9,6 +9,7 @@
   /* The "to" keyword is used to specify the ending style of the animation */
   to {
     /* The opacity property is set to 0, making the element fully transparent */
-    opacity: 0;
+    opacity: 0; /* This property controls the transparency of the element. A value of 0 means the element is fully transparent, while a value of 1 means the element is fully opaque. */
   }
 }
+
