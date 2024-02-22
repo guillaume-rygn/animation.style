@@ -1,13 +1,14 @@
 /* Define global animation variables */
 :root {
-  --animation-duration: 1s;
-  --animation-delay: 1s;
-  --animation-iteration-count: 1;
+  --animation-duration: 1s; /* Default animation duration */
+  --animation-delay: 1s; /* Default animation delay */
+  --animation-iteration-count: 1; /* Default animation iteration count */
 }
 
 /* Base animation class for all elements */
 .animation {
   animation-duration: var(--animation-duration);
+  animation-fill-mode: both; /* Ensure animation applies to both the start and end state */
 }
 
 /* Classes to set animation duration */
@@ -246,5 +247,4 @@
 }
 .animation .revealBottom {
   display: block;
-  animation-name: reveal;
-  animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+ 
