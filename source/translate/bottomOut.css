@@ -6,14 +6,15 @@
 
 /* The @keyframes rule defines the animation by specifying the styles at various points during the animation. */
 @keyframes bottomOut {
-  /* The from keyword specifies the starting style for the animation. */
+  /* The from keyword specifies the starting style for the animation. In this case, we're setting the starting position of the element to its original position (0% translated up on the y-axis). */
   from {
     /* The transform property is used to move the element up by its original height (0%). */
     transform: translateY(0%);
   }
-  /* The to keyword specifies the ending style for the animation. */
+  /* The to keyword specifies the ending style for the animation. In this case, we're setting the ending position of the element to be moved up by its height plus any margin or padding (100% translated up on the y-axis). */
   to {
     /* The transform property is used to move the element up by its height plus any margin or padding (100%). */
     transform: translateY(100%);
   }
 }
+
