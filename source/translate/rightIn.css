@@ -2,6 +2,7 @@
 .rightIn {
   /* Assigns the rightIn animation to this class */
   animation-name: rightIn;
+  /* This class does not have any other styles defined, so it will only apply the rightIn animation */
 }
 
 /* Defines the keyframes for the rightIn animation */
@@ -10,10 +11,13 @@
   from {
     /* Translates the element 100% to the right of its starting position */
     transform: translateX(100%);
+    /* This rule moves the element completely off the screen to the right */
   }
   /* The ending point of the animation */
   to {
     /* Translates the element back to its original position */
     transform: translateX(0%);
+    /* This rule moves the element back to its original position, effectively moving it in from the right */
   }
 }
+
