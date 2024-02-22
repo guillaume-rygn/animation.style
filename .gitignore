@@ -1,3 +1,21 @@
-node_modules / 
-package-lock.json 
-.yarn /
+# This code block specifies the files and directories that should be ignored
+# by version control systems such as Git.
+
+# The "node\_modules" directory contains the dependencies of a Node.js project.
+# It is typically large and should be ignored by version control systems to
+# reduce the size of the repository and avoid conflicts with other developers'
+# dependency versions.
+node_modules/
+
+# The "package-lock.json" file is automatically generated when installing
+# Node.js packages using the "npm" package manager. It contains a versioned
+# snapshot of the package dependencies in the current project. It should be
+# ignored by version control systems to avoid conflicts with other developers'
+# dependency versions.
+package-lock.json
+
+# The ".yarn" directory contains the dependencies of a Node.js project that
+# are managed by the "Yarn" package manager. It should be ignored by version
+# control systems to reduce the size of the repository and avoid conflicts with
+# other developers' dependency versions.
+.yarn/
